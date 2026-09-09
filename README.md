@@ -180,6 +180,9 @@ Confirmed:
 - Device automatically reboots after saving settings
 
 This repository documents a working hardware prototype, not only a theoretical design.
+For detailed test results and verification steps, see:
+
+[`docs/TESTING.md`](docs/TESTING.md)
 
 ## Important Notes
 
