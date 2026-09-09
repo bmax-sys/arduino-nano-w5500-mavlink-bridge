@@ -159,8 +159,10 @@ arduino-nano-w5500-mavlink-bridge/
 ├── docs/
 │   └── WIRING.md
 └── images/
-    └── wiring-diagram.png
+    ├── wiring-diagram.png
+    └── web-interface.png
 ```
+
 
 ## Tested
 
