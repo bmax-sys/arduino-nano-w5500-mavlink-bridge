@@ -47,6 +47,18 @@ The tested prototype uses:
 - Ethernet cable
 - UART connection between the flight controller and Arduino Nano
 
+  ## 3D Printable Enclosure
+
+A 3D printable enclosure for the Arduino Nano + W5500 MAVLink Bridge is included in this repository.
+
+STL file:
+
+[`enclosure/ETH-NANO.STL`](enclosure/ETH-NANO.STL)
+
+The enclosure is designed for the hardware configuration used in this project and can be printed on a standard FDM 3D printer.
+
+Before printing, verify the dimensions and connector positions for your specific Arduino Nano and W5500 modules.
+
 ### Connections
 
 **Flight Controller → Arduino Nano**
@@ -157,12 +169,14 @@ arduino-nano-w5500-mavlink-bridge/
 ├── firmware/
 │   └── arduino_nano_w5500_mavlink_bridge.ino
 ├── docs/
-│   └── WIRING.md
-└── images/
-    ├── wiring-diagram.png
-    └── web-interface.png
+│   ├── WIRING.md
+│   └── TESTING.md
+├── images/
+│   ├── wiring-diagram.png
+│   └── web-interface.png
+└── enclosure/
+    └── ETH-NANO.STL
 ```
-
 
 ## Tested
 
