@@ -89,6 +89,10 @@ After changing the configuration, press **SAVE & REBOOT** to store the new setti
 
 ## Web Interface
 
+<p align="center">
+  <img src="images/web-interface.png" alt="bmax_sys Arduino Nano W5500 MAVLink Bridge Web Interface" width="100%">
+</p>
+
 The bridge includes a lightweight built-in web interface hosted directly by the Arduino Nano.
 
 Open the device IP address in a web browser:
